@@ -2,7 +2,7 @@ package Unit03;
 
 public class Task12 {
     public static void main(String[] args) {
-        int[] arr = {9, 11, 7, 8};
+        int[] arr = {9, 110, 7, 8};
         selectionSort(arr);
         System.out.println(java.util.Arrays.toString(arr));
 
