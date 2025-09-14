@@ -1,0 +1,28 @@
+package Unit03;
+
+public class Task03 {
+    public static void main(String[] args) {
+        System.out.println(getNameOfWeekDays(7));
+    }
+
+    static String getNameOfWeekDays(int weekDaysNumber) {
+        switch (weekDaysNumber){
+            case 1:
+                return "Понедельник";
+            case 2:
+                return "Вторник";
+            case 3:
+                return "Среда";
+            case 4:
+                return "Четверг";
+            case 5:
+                return "Пятьница";
+            case 6:
+                return "Суббота";
+            case 7:
+                return "Воскресенье";
+            default:
+                return "Такого дня недели не существует";
+        }
+    }
+}
