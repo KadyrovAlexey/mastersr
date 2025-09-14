@@ -13,7 +13,7 @@ public class Task14 {
     }
 
     public static void main(String[] args) {
-        int result = reverse(266);
+        int result = reverse(265);
         System.out.println(result);
 
     }
