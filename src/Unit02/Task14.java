@@ -5,9 +5,9 @@ public class Task14 {
         int reversed = 0;
 
         while (value > 0) {
-            int digit = value % 10;      // получаем последнюю цифру
-            reversed = reversed * 10 + digit; // добавляем её к результату
-            value = value / 10;          // убираем последнюю цифру
+            int digit = value % 10;
+            reversed = reversed * 10 + digit;
+            value = value / 10;
         }
         return reversed;
     }

@@ -4,7 +4,7 @@ public class Task13 {
     public static char toUpperCase(char c) {
 
         if (c >= 'a' && c <= 'z') {
-            // Преобразуем в верхний регистр
+
             return (char) (c - 32);
         }
 
