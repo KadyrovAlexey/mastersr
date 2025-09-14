@@ -3,7 +3,7 @@ package Unit03;
 public class Task01 {
     public static void main(String[] args) {
 
-        boolean b = canGetDriverLicense(190);
+        boolean b = canGetDriverLicense(10);
         System.out.println(b);
 
     }
